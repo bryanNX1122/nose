@@ -1,0 +1,74 @@
+.box{
+    background-image: radial-gradient( rgb(100, 126, 117) 60% , rgb(139, 172, 172) );
+    
+}
+table{
+    border-collapse: collapse;
+    width: 80%;
+    margin: 0 auto;
+}
+
+td{
+    border: 1px solid darkgray;
+    text-align: center;
+    padding: 0.5cm;
+}
+
+table{
+    border-radius: 60px;
+    border-collapse: collapse;
+    width: 80%;
+    margin: 0 auto;
+}
+
+td{
+    background-color: rgb(221, 219, 219);
+    border: 1px solid rgb(87, 87, 87);
+    text-align: center;
+    padding: 0.5cm;
+}
+tr{
+    background-color: rgb(92, 92, 92);
+}
+header {
+    background-color: #550644;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: #ddd;
+    padding: 10px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav li a {
+    color: #2c302c;
+    text-decoration: none;
+    font-weight: bold;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+nav li a:hover {
+	color: #a022a9;
+	text-decoration: none;
+	font-weight: bold;
+    text-decoration:underline;
+    font-size: 20px;
+}
